@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      body {
+        width: 250px;
+        padding: 15px;
+        font-family: sans-serif;
+      }
+      h3 {
+        margin-top: 0;
+        font-size: 16px;
+        color: #333;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        cursor: pointer;
+        background: #4285f4;
+        color: white;
+        border: none;
+        border-radius: 4px;
+      }
+      #status {
+        margin-top: 15px;
+        padding: 10px;
+        border-radius: 4px;
+        display: none;
+        font-size: 13px;
+      }
+      .success {
+        background: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+      }
+      .error {
+        background: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Craft Locally.Customize Instantly !</h3>
+    <button id="extractBtn">Extract & Send JD</button>
+    <div id="status"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
