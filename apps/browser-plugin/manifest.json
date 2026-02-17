@@ -3,7 +3,7 @@
   "name": "LocalCraft.io",
   "version": "1.0",
   "permissions": ["activeTab", "scripting"],
-  "host_permissions": ["https://your-free-api.render.com/*"],
+  "host_permissions": ["https://localcraft-io.onrender.com/*"],
   "action": {
     "default_title": "Read JD",
     "default_popup": "popup.html",

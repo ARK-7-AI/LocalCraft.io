@@ -1,0 +1,51 @@
+#status {
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Michigan Blue for general info */
+.info {
+  background-color: #00274c;
+  color: #ffffff;
+}
+
+/* Michigan Maize for warnings/cold starts */
+.warning {
+  background-color: #ffcb05;
+  color: #00274c;
+  border: 2px solid #00274c;
+}
+
+.success {
+  background-color: #28a745;
+  color: white;
+}
+.error {
+  background-color: #dc3545;
+  color: white;
+}
+
+body {
+  width: 250px;
+  padding: 15px;
+  font-family: sans-serif;
+}
+h3 {
+  margin-top: 0;
+  font-size: 16px;
+  color: #333;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  background: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+button:hover {
+  background: #357ae8;
+}
